@@ -11,7 +11,7 @@ class MyApp(QMainWindow, Ui_MainWindow):
         self.init()
 
     def init(self):
-        self.db = mysql.connector.connect(host='52.79.242.176', user='rudalsd', password='1', database='minDB')
+        self.db = mysql.connector.connect(host='server ip', user='id', password='pass', database='DB')
         self.cur = self.db.cursor()
 
         #timer setting
