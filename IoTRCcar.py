@@ -16,7 +16,7 @@ import sys
     
 a = False
 flag  = 0
-cap = cv2.VideoCapture("http://192.168.25.12:8090/?action=stream")
+cap = cv2.VideoCapture("http://ip:port/?action=stream")
 
 def ROI_img(img, vertices):
 
